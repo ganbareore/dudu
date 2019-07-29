@@ -1,0 +1,266 @@
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #6eb2a5;
+  font-family: "幼圆";
+  height: 100%;
+  /* 基本样式 */
+  /* border-radius: 3rem;   如何选取适合当前手机的边角圆化？？？？？？？？？*/
+}
+.info-top {
+  overflow: hidden;
+  margin: 5% 0.5rem 0.3rem;
+}
+.info-top img {
+  width: 1.5rem;
+}
+.img1 {
+  float: left;
+}
+.img2 {
+  float: right;
+}
+p {
+  font-size: 1rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0 1.4rem;
+  color: #f9f9f9;
+}
+.user-icon {
+  position: absolute;
+  width: 30%;
+  left: 35%;
+  top: 12%;
+  z-index: 2;
+  border-radius: 50%;
+}
+/* 5s版本 */
+.info-buttom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 76%;
+  background-color: #f9f9f9;
+  /* border-radius: 3rem; */
+  /* 基本样式 */
+}
+/* 轮播图 */
+#hd_w{
+    width: 90%;
+    height: 28%;
+    margin: 3% auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #afafaf;
+    border-radius: 1.25rem;
+}
+#hd_d{
+    position: absolute;
+    width: 360%;
+}
+
+#hd_d img{
+    width: 28%;
+    /* height: 100%; */
+    float: left;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+
+/* 以上是轮播图 */
+
+/* .info-items{
+    background-color: rgb(226, 126, 193);     好像是没用
+} */
+.OCR {
+  /* position: absolute; */
+  width: 90%;
+  /* line-height: 350%; */
+  margin: 3% auto;
+  border-radius: 1.25rem;
+  color: #6eb2a5;
+  background-color: #efefef;
+  overflow: hidden;
+}
+
+.OCR a {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #6eb2a5;
+  width: 100%;
+  line-height: 160%;
+}
+.OCR a:active {
+  color: #efefef;
+  background-color: #6eb2a5;
+  border-radius: 1.25rem;
+}
+.OCR span {
+  display: inline-block;
+  width: 65%;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 350%;
+  clear: both;
+}
+.OCR a img {
+  width: 30%;
+  height: 30%;
+  box-sizing: content-box;
+  padding: 2% 0 2% 7%;
+}
+.finshed {
+  width: 90%;
+  line-height: 500%;
+  margin: 3.5% auto;
+  border-radius: 1.25rem;
+  color: #6eb2a5;
+  background-color: #efefef;
+}
+
+.finshed a {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #6eb2a5;
+  width: 100%;
+  line-height: 160%;
+}
+.finshed a:active {
+  color: #efefef;
+  background-color: #6eb2a5;
+  border-radius: 1.25rem;
+}
+.finshed span {
+  display: inline-block;
+  width: 65%;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 350%;
+  clear: both;
+}
+.finshed a img {
+  width: 30%;
+  height: 30%;
+  box-sizing: content-box;
+  padding: 2% 0 2% 7%;
+}
+.info-botton {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding-top: 0.6rem;
+}
+.info-botton submit {
+  font-size: 0.8rem;
+  color: #686868;
+  /* width: 25%;       这个看看是加还是不加，我觉得不加比较合适 */
+  /* height: 30%; */
+  line-height: 350%; /* 我也不太清楚为什么要真么大的百分比，我找不到这个元素的的百分比是相当于谁的百分比，如果是父元素的话，不会是这样，但是如果不是，我暂时还是不太清楚是相对于谁，试了一下。并不会适配？？？？？？！！为什么？？怎么就固定了呢？？？！！！ */
+  background-color: #efefef;
+  border-radius: 1.3rem;
+  box-sizing: border-box;
+  padding: 0 0.8rem;
+  box-shadow: 0.35rem 0.35rem 0.35rem #d1d2d3;
+}
+.info-botton submit:active {
+  width: 25%;
+    height: 30%;
+  color: #efefef;
+  background-color: #6eb2a5;
+  box-shadow: none;
+  text-decoration: none;
+  text-align: center;
+    font-weight: 100;
+
+}
+.info-botton a {
+  font-size: 0.8rem;
+  color: #686868;
+  /* width: 25%;       这个看看是加还是不加，我觉得不加比较合适 */
+  /* height: 30%; */
+  line-height: 350%; /* 我也不太清楚为什么要真么大的百分比，我找不到这个元素的的百分比是相当于谁的百分比，如果是父元素的话，不会是这样，但是如果不是，我暂时还是不太清楚是相对于谁，试了一下。并不会适配？？？？？？！！为什么？？怎么就固定了呢？？？！！！ */
+  background-color: #efefef;
+  border-radius: 1.3rem;
+  box-sizing: border-box;
+  padding: 0 0.8rem;
+  box-shadow: 0.35rem 0.35rem 0.35rem #d1d2d3;
+  text-decoration: none;
+
+}
+.info-botton a:active{
+  font-size: 0.8rem;
+    color: #efefef;
+    width: 25%;
+    height: 30%;
+    line-height: 350%; /* 我也不太清楚为什么要真么大的百分比，我找不到这个元素的的百分比是相当于谁的百分比，如果是父元素的话，不会是这样，但是如果不是，我暂时还是不太清楚是相对于谁，试了一下。并不会适配？？？？？？！！为什么？？怎么就固定了呢？？？！！！ */
+    background-color: #6eb2a5;
+    border-radius: 1.3rem;
+    box-sizing: border-box;
+    padding: 0 0.8rem;
+    box-shadow: none;
+    text-align: center;
+    font-weight: 100;
+}
+.info-botton submit:nth-child(1) {
+  font-size: 0.8rem;
+  color: #efefef;
+  width: 25%;
+  height: 30%;
+  line-height: 350%; /* 我也不太清楚为什么要真么大的百分比，我找不到这个元素的的百分比是相当于谁的百分比，如果是父元素的话，不会是这样，但是如果不是，我暂时还是不太清楚是相对于谁，试了一下。并不会适配？？？？？？！！为什么？？怎么就固定了呢？？？！！！ */
+  background-color: #6eb2a5;
+  border-radius: 1.3rem;
+  box-sizing: border-box;
+  padding: 0 0.8rem;
+  box-shadow: none;
+  text-align: center;
+  font-weight: 100;
+/* 看情况加不加js。 */
+}
+
+/* body{
+    background-color: #6eb2a5;
+}
+.nav{
+    overflow: hidden;
+    align: center;
+    padding: 1rem 0;
+}
+.nav img{
+    width: 1.5rem;
+}
+.img1{
+    float: left;
+}
+.img2{
+    float: right;
+}
+
+
+.info{
+    width: 100%;
+    height: 35%;
+    background-color: #aeaeae;
+}
+
+.OCR{
+    width: 100%;
+    height: 80px;
+    background-color: #ec9a9a;
+}
+.finshed{
+    width: 100%;
+    height: 80px;
+    background-color: #cf8642;
+} */

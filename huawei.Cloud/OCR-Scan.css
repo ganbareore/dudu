@@ -1,0 +1,66 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #6eb2a5;
+    font-family: "幼圆";
+    overflow: hidden;
+    /* 基本样式 */
+    /* border-radius: 3rem;   如何选取适合当前手机的边角圆化？？？？？？？？？*/
+  }
+  .ocrScan-top {
+    overflow: hidden;
+    margin: 5% 0.5rem 0.3rem;
+  }
+  .ocrScan-top img {
+    width: 1.5rem;
+  }
+  .img1 {
+    float: left;
+  }
+  .img2 {
+    float: right;
+  }
+  p {
+    font-size: 1.2rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    padding: 0 1.4rem;
+    color: #f9f9f9;
+  }
+.OCR-scan{
+  margin-top: 15%;
+    background-color: #afafaf;
+    border-radius: 1.25rem;
+    /* width: 100%; */
+    /* height: 50%; */
+}
+.scan-icon{
+    width: 90%;
+    position: relative;
+    margin: 0 5%;
+}
+.eg-user-icon{
+    position: absolute;
+    width: 12rem;
+    /* top: 18%;
+    left: 2.75%; */
+    left: 50%;
+    margin-left: -6rem;
+    top: 33.5%;
+}
+.eg-user-icon a:{
+  background-color: #fff;
+}
+
+
+
+
+

@@ -1,0 +1,51 @@
+html,body{height: 100%;width: 100%;margin:0;padding:0;}
+p{margin:0;padding:0;}
+body{
+    background-color: #6eb2a5;
+    font-family: "幼圆";
+    /* 基本样式 */
+    /* border-radius: 3rem;   如何选取适合当前手机的边角圆化？？？？？？？？？*/
+}
+.finshed-top img{
+    width: 7%;
+    margin: 0.8rem 0.5rem;
+}
+p{
+    font-size: 1.2rem;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 2rem;
+    color: #f9f9f9;
+}
+.finshed-buttom{
+    background-color: #f9f9f9;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75%;
+    /* border-radius: 3rem; */
+/* 基本样式 */
+    padding-top: 0.2rem;
+}
+.item-name{
+    color:#6eb2a5;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 250;
+    padding: 7.2%;
+    box-sizing: border-box;
+    width: 90%;
+    height: 20%;
+    /* line-height: 5.8rem; */
+    margin: 1.6rem auto 0;
+    border-radius: 2rem;
+    background-color: #eeeff0;
+}
+.item-content{
+    width: 90%;
+    height: 20%;
+    color: white;
+    border-radius: 2rem;
+    margin: 0.8rem auto 0;
+    background-color: #6cb2a5;
+}

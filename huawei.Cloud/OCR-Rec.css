@@ -1,0 +1,178 @@
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #6eb2a5;
+  font-family: "幼圆";
+  /* 基本样式 */
+  /* border-radius: 3rem;   如何选取适合当前手机的边角圆化？？？？？？？？？*/
+}
+.OCR-top {
+  overflow: hidden;
+  margin: 5% 0.5rem 0.3rem;
+}
+.OCR-top img {
+  width: 1.5rem;
+}
+.img1 {
+  float: left;
+}
+.img2 {
+  float: right;
+}
+p {
+  font-size: 1rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0 1.4rem;
+  color: #f9f9f9;
+}
+
+/* 5s版本 */
+.OCR-buttom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 76%;
+  background-color: #f9f9f9;
+  /* border-radius: 3rem; */
+  /* 基本样式 */
+}
+.ID-OCR {
+  /* position: absolute; */
+  width: 90%;
+  height: 26%;
+  /* line-height: 350%; */
+  margin: 3% auto;
+  border-radius: 1.25rem;
+  color: #6eb2a5;
+  background-color: #efefef;
+  overflow: hidden;
+}
+
+.ID-OCR a {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #6eb2a5;
+  width: 100%;
+  line-height: 160%;
+  padding: 5% 0;
+}
+.ID-OCR a:active {
+  color: #efefef;
+  background-color: #6eb2a5;
+  border-radius: 1.25rem;
+}
+.ID-OCR span {
+  display: inline-block;
+  width: 55%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 380%;
+  clear: both;
+  font-weight: 150;
+  vertical-align: middle;
+}
+.ID-OCR a img {
+  width: 40%;
+  height: 30%;
+  box-sizing: content-box;
+  padding: 2% 0 2% 7%;
+}
+
+
+.daiXian-scan {
+  width: 90%;
+  /* line-height: 500%; */
+  /* height: 25%; */
+  margin: 3.5% auto;
+  border-radius: 1.25rem;
+  color: #6eb2a5;
+  background-color: #efefef;
+}
+
+.daiXian-scan a {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #6eb2a5;
+  width: 100%;
+  /* line-height: 160%; */
+  padding: 1% 0;
+  box-sizing: border-box;
+  margin: 18% 0 2%;
+}
+.daiXian-scan a:active {
+  color: #efefef;
+  background-color: #6eb2a5;
+  border-radius: 1.25rem;
+}
+.daiXian-scan span {
+  display: inline-block;
+  width: 65%;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 200%;
+  clear: both;
+  margin: 3.5% 0;
+
+}
+.daiXian-scan a img {
+  width: 20%;
+  /* height: 30%; */
+  box-sizing: content-box;
+  padding: 2% 0 2% 7%;
+}
+
+.daiKuan-scan {
+  width: 90%;
+  /* line-height: 500%; */
+  /* height: 25%; */
+  margin: 3.5% auto;
+  border-radius: 1.25rem;
+  color: #6eb2a5;
+  background-color: #efefef;
+}
+
+.daiKuan-scan a {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #6eb2a5;
+  width: 100%;
+  /* line-height: 160%; */
+  padding: 1% 0;
+  box-sizing: border-box;
+  margin: 9% 0 2%;
+}
+.daiKuan-scan a:active {
+  color: #efefef;
+  background-color: #6eb2a5;
+  border-radius: 1.25rem;
+}
+.daiKuan-scan span {
+  display: inline-block;
+  width: 65%;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 200%;
+  clear: both;
+  margin: 3.5% 0;
+
+}
+.daiKuan-scan a img {
+  width: 20%;
+  /* height: 30%; */
+  box-sizing: content-box;
+  padding: 2% 0 2% 7%;
+}
+
+
