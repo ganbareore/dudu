@@ -1,0 +1,24 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    /* margin: 0;
+    padding: 0; */
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #6eb2a5;
+    font-family: "幼圆";
+    overflow: hidden;
+    /* 基本样式 */
+    /* border-radius: 3rem;   如何选取适合当前手机的边角圆化？？？？？？？？？*/
+  }
+  .index-img{
+      display: flex;
+      justify-content: center;
+      margin: 30.46% auto;
+      text-align: center;
+      overflow: hidden;
+  }

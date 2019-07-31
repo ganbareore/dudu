@@ -73,6 +73,7 @@ html,body {
     /* height: 15%; */
     padding: 24% 10% 2%;
     border-radius: 0 0 1.25rem 1.25rem;
+    box-shadow:0 5px 3px 4px  #515757 inset;
     z-index: 19;
 }
 .banner-func img{
